@@ -1,0 +1,54 @@
+*,*{
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.iPhone{
+	width: 250px;
+	height: 450px;
+	background: black;
+	margin: 0 auto;
+	margin-top: 25px;
+	border-radius: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+
+.tela{
+	width: 100%;
+	height: 100%;
+	background: #FFF;
+	position: relative;
+}
+
+.tela ul{
+	height: calc(100% - 70px);
+	overflow-y: scroll;
+}
+
+.tela ul li{
+	list-style: none;
+	padding: 10px;
+	width: calc(100% - 20px);
+	background: #F5F5F5;
+	border-bottom: 1px solid #E1E1E1;
+	font-size: 14px;
+}
+
+.banner{
+	width: 100%;
+	height: 70px;
+	background: silver;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+
+.banner a{
+	text-decoration: none;
+	color: black;
+}

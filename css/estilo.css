@@ -52,3 +52,11 @@
 	text-decoration: none;
 	color: black;
 }
+
+.close{
+	float: left;
+	padding: 7.5px;
+	cursor: pointer;
+	color: #FFF;
+	margin-top: -5px;
+}
